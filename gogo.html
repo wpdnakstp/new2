@@ -1,0 +1,103 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+{% load staticfiles %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>써비스 소개</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/blog/">
+
+    <!-- Bootstrap core CSS -->
+<link href="/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="blog.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+ 
+
+ 
+
+  <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
+    <div class="col-md-6 px-0">
+      <h1 class="display-4 font-italic">군생활을 책으로 남기다,
+           <br>'터닝포인트'</h1>
+      <p class="lead my-3"> (기사참고)<br>
+         병사 `일과 후 휴대폰 사용` 4월부터 모든 부대로 확대 - 매일경제...</p>
+      <p class="lead mb-0"><a href="{% url 'sol' %}" class="text-white font-weight-bold">Continue reading...</a></p>
+      <a href="{% url 'home' %}">home으로 가기</a>
+      <!-- <img src ="{% static '경희.jpg' %}"> -->
+    </div>
+  </div>
+
+ 
+<main role="main" class="container">
+  <div class="row">
+    <div class="col-md-8 blog-main">
+      <h3 class="pb-4 mb-4 font-italic border-bottom">
+        여러분에게 군대란 어떤 곳입니까?
+      </h3>
+
+      <div class="blog-post">
+        <h2 class="blog-post-title">서비스 구상 배경</h2>
+        <p class="blog-post-meta">January 1, 2018 </a></p>
+
+        <p>많은 남자들은 군대를 버리는 시간이라고 생각합니다. 틀린 말은 아닙니다. 제한된 공간, 다양한 상황적 제약 속에서 좌절감을 느끼거나, 사회에서 커리어를 쌓아나가는 또래의 젊은이들을 보며 상대적 박탈감을 느끼기도 합니다. 그러나 조금만 관점을 바꾸어보면, 군생활은 오직 나에게 집중할 수 있는 시간입니다. 자신의 적성을 탐색하고, 자기계발을 통하여 군생활을 배움과 성장의 시기로 삼는 사람이 있습니다. 누군가에게는 버리는 시간이 될 수도, 누군가에겐 인생의 전환점을 맞이할 수 있는 중요한 시기입니다. 21개월은 짧은 기간이 아닙니다. 약 2년 동안 쌓아온 습관과 노력은 제대 후 새로운 인생을 시작하는 데 큰 밑거름이 됩니다.<br>군대를 부정적으로 바라보는 장병들의 시선을 바꾸고, 안에서의 시간들을 좀 더 값지게 활용하는 이들이 많아졌으면 하는 마음에 이 서비스를 기획하였습니다. </p>
+       <br> <h2>그래서 탄생하게된 서비스, 터닝포인트</h2>
+       <p>자기계발에 관심이 있는 군장병을 대상으로 하며<br>
+            자신의 군생활을 기록하고, 경험을 공유하며, 기록을 엮어 책으로 만들어주는 서비스입니다.</p>
+        <h3>터닝포인트의 세 가지 목표</h3>
+    
+        <h4>1. 계획관리 및 일상을 기록할 수 있는 일기&다이어리 기능</h4>
+        <p>장병들이 자신의 일상을 기록하고, 계획을 체계적으로 관리할 수 있는 틀을 제공합니다. 
+                군대에서 자기계발을 하고자 한다면 자신의 성향과 처해있는 상황을 객관적으로 잘 파악하여 계획을 세워야 합니다. 
+                꾸준한 다이어리 작성은 습관 형성 및 자신을 객관적으로 바라보는 데에 도움을 줍니다.
+                이를 통해 자신의 군생활 중 스스로의 생활패턴을 객관적으로 파악하고, 단계적인 실천 계획과, 유연한 시간관리를 할 수 있게 됩니다.
+                일기&다이어리 기능은 다시 세 가지로 세분화됩니다.</p>
+        <p>▶ 매일 쓰는 일기<br>
+                하루의 일들을 정리하고, 그에 대한 자신의 생각을 담을 수 있게 합니다.<br>
+                ▶ 읽은 책들을 기록하고, 독후감을 써서 저장하는 기능<br>
+                군생활 중 읽은 책들을 정리하고, 읽으며 어떤 생각을 하였는지 기록으로 남깁니다.<br>
+                ▶ 체계적인 목표관리( ex) 계급별 목표설정)<br>
+                자신이 쌓고 싶은 습관이나, 해야 할 일들을 기록하고, 유형별로 관리하여 목표달성률을 보여줍니다. 매일 자신의 목표 진행률을 확인하여 목표달성의 동기를 부여합니다.
+                </p>
+        <h4>2. 군 장병, 전역자를 대상으로 이들의 자기계발 경험담, 성공사례, 정보를 공유하는 커뮤니티 플랫폼</h4>
+        <p>제한된 개인 시간, 다양한 상황적 제약 등은 장병들이 자기계발을 시도하였다가 쉽게 포기하게 만드는 주된 요인들입니다. 군인들끼리 서로의 자기계발에 관한 경험을 공유함으로써 장병들의 동기부여와 자신감을 찾아주고, 자기계발에 관한 궁금한 점을 질문하고 답변, 조언받음으로 겪어보지 않은 활동에 대한 간접경험을 제공합니다. 이러한 커뮤니티의 활성화는 장병들이 자기계발에 지속적으로 관심을 가지고 실천해나갈 수 있는 동기를 부여해 줄 것입니다.</p>
+
+        <h4>3. 이용자가 쌓아온 기록을 엮어 책으로 출간.</h4>
+        <p>각자 쌓아온 군생활의 기록들을 하나의 책으로 엮어 실제로 소유하고 보관할 수 있게 합니다.
+                자신의 군생활을 책으로 남기기 위해 기록을 남기는 과정에서, 장병들은 자신에게 군대가 어떤 의미를 지니는 가에 대한 답을 찾고, 그 나름의 답에 따라 군생활의 목표를 세우고 이를 이루기 위해 노력할 동기를 얻습니다. 또한 목표를 세우고 실천하는 과정은 인생 도약의 발판을 마련하는 절호의 기회가 될 것입니다.
+                단지 잊고 싶은 군대가 아니라, 열정적으로 생활하고 성장의 추억으로 기억될 수 있도록, 책을 통해 자신의 군생활을 되짚어볼 수 있을 것입니다.</p>
+
+
+    
+        
+
